@@ -1,0 +1,43 @@
+DOCTYPE html>
+
+<html lang="en">
+
+<head>>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Document</title>
+
+</head>
+
+<body>>
+
+<h1>welcome lodu</h1>
+
+<button onclick="random()">
+
+<img id="imagechange" src="1.jpg" >
+
+</button>
+
+<h1 id="number"> please click on dice</h1>
+
+<script>
+
+function random(){
+
+<!-- console.log("pass") -->
+
+let a = Math.floor(Math.random()*6+1);
+
+imagechange.src=a+".jpg";
+
+document.getElementById("number").innerHTML=a; console.log(a)
+
+</script>
+
+</body>
+
+</html>
